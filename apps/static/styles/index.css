@@ -12,7 +12,8 @@
     flex-flow: row;
 
     justify-content: space-between;
-    align-items: center;
+    /*align-items: center;*/
+    align-items:  flex-start;
 
     width: fit-content;
 
@@ -56,4 +57,13 @@ height: auto;
 }
 .right {
     margin: 0 0 0 auto;
+}
+
+body {
+    background-color: #F0E68C;
+}
+
+header {
+    background-color: #87CEFA;
+    padding: 20px;
 }

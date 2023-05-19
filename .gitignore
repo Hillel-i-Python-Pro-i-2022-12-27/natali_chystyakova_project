@@ -127,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+/docker-compose.override.yml
+
+.idea/
+
+#db/*
+#!db/.gitkeep
+
+media/*
+!media/.gitkeep
